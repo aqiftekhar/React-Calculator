@@ -50,10 +50,10 @@ export const Button = styled.button`
       return `grid-column: span ${gridSpan} ;`;
     }
   }};
-  ${({ operation }) => operation && `background-color:gray;`};
+  ${({ operation }) => operation && `background-color:#FD9346;`};
   ${({ control }) => control && `background-color:skyBlue;`};
   ${({ equals }) =>
-    equals && `background-color:gray;border-bottom-right-radius:10px;`};
+    equals && `background-color:#D4D4D2;border-bottom-right-radius:10px;`};
   ${({ decimal }) =>
     decimal && `background-color:skyBlue;border-bottom-left-radius:10px;`};
 `;
